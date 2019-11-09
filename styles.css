@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Navigation */
+nav {
+  background: linear-gradient(to bottom, lightblue, transparent);
+  height: 75px;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav a {
+  margin-right: 15px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+nav a:hover {
+  color: darkred;
+  border-bottom: solid 4px darkred;
+  padding-bottom: 2px;
+}
