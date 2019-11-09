@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 /* Navigation */
 nav {
@@ -14,14 +15,54 @@ nav {
 }
 nav a {
   margin-right: 15px;
-  font-family: sans-serif;
   text-decoration: none;
   color: #333;
   font-weight: bolder;
   font-size: 1.3rem;
 }
 nav a:hover {
-  color: darkred;
-  border-bottom: solid 4px darkred;
+  color: #f37520;
+  border-bottom: solid 2px #f37520;
   padding-bottom: 2px;
+}
+
+/* Hero */
+#hero {
+  color: #333;
+  background: linear-gradient(lightblue, transparent 60%),
+    linear-gradient(0deg, #fff, transparent), url(img/ship-hero.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin-top: -75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.header {
+  text-align: center;
+  width: 30%;
+}
+.header h1 {
+  font-size: 3rem;
+}
+.tagline {
+  font-style: italic;
+  margin: 10px 0;
+  font-size: 1.5rem;
+}
+#action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background: #f37520;
+  height: 50px;
+  width: 60%;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
