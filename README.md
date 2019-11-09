@@ -17,6 +17,7 @@ I am doing this project as a way to create a landing page specific for this ship
 
 - Add ghost link to navigation
 - Add img folder
+- Add Hero section; Headline, Tagline, Call to Action, and style it
 
 ---
 
