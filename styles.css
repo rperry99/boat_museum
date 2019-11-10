@@ -66,3 +66,28 @@ nav a:hover {
   font-weight: bold;
   font-size: 1.5rem;
 }
+
+/* History */
+#history {
+  width: 50%;
+  margin: 0 auto;
+  color: #333;
+}
+#history h2 {
+  margin-bottom: 30px;
+}
+#history p {
+  margin-bottom: 15px;
+}
+#history figure {
+  float: right;
+  margin: 20px;
+  border: solid 1px #333;
+  padding: 10px;
+  text-align: center;
+  font-style: italic;
+}
+#history figure img {
+  width: 400px;
+  height: auto;
+}

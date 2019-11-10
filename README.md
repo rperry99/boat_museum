@@ -23,11 +23,11 @@ I am doing this project as a way to create a landing page specific for this ship
 
 #### 11/10/19
 
-- Add history section
-  -- History information taken from [Wikipedia](https://en.wikipedia.org/wiki/Steamship_William_G._Mather_Maritime_Museum)
+- Add history section -- History information taken from [Wikipedia](https://en.wikipedia.org/wiki/Steamship_William_G._Mather_Maritime_Museum)
 
 ---
 
 # Image Credits
 
 - ship-hero.jpg (Hero Background) - [Pixabay](https://www.pexels.com/@pixabay) from pexels.com
+- ship-history.jpg (Image in history Section) - [Markus Spiske](https://www.pexels.com/@markusspiske)
