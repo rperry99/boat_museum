@@ -78,6 +78,8 @@ nav a:hover {
 }
 #history h2 {
   margin-bottom: 30px;
+  font-size: 1.8rem;
+  color: #f37520;
 }
 #history p {
   margin-bottom: 15px;
@@ -85,7 +87,7 @@ nav a:hover {
 #history figure {
   float: right;
   margin: 20px;
-  border: solid 1px #333;
+  border: solid 2px #f37520;
   padding: 10px;
   text-align: center;
   font-style: italic;
@@ -93,4 +95,77 @@ nav a:hover {
 #history figure img {
   width: 400px;
   height: auto;
+}
+
+/* Media Queries */
+/* Laptop */
+@media screen and (max-width: 1024px) {
+  .header {
+    width: 50%;
+  }
+  .header h1 {
+    font-size: 2.5rem;
+  }
+  .header .tagline {
+    font-size: 1.2rem;
+  }
+  #history {
+    margin-top: 30px;
+    width: 75%;
+  }
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+  .header {
+    width: 70%;
+  }
+  .header h1 {
+    font-size: 2.2rem;
+  }
+  .header .tagline {
+    font-size: 1.15rem;
+  }
+  #history figure img {
+    width: 300px;
+  }
+}
+
+/* Mobile - Large */
+@media screen and (max-width: 425px) {
+  #hero a {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+  .header h1 {
+    font-size: 1.7rem;
+  }
+  .header .tagline {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  #history h2 {
+    text-align: center;
+  }
+  #history figure {
+    float: none;
+  }
+  #history figure img {
+    width: 100%;
+  }
+  #history figure figcaption {
+    font-size: 0.9rem;
+  }
+}
+
+/* Mobile - Medium */
+@media screen and (max-width: 375px) {
+  .header,
+  #history {
+    width: 90%;
+  }
+}
+
+/* Mobile - Small */
+@media screen and (max-width: 320px) {
 }
