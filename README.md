@@ -24,7 +24,7 @@ I am doing this project as a way to create a landing page specific for this ship
 #### 11/10/19
 
 - Add history section
-  .- History information taken from [Wikipedia](https://en.wikipedia.org/wiki/Steamship_William_G._Mather_Maritime_Museum)
+  -- History information taken from [Wikipedia](https://en.wikipedia.org/wiki/Steamship_William_G._Mather_Maritime_Museum)
 
 ---
 
