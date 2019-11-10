@@ -25,6 +25,7 @@ I am doing this project as a way to create a landing page specific for this ship
 
 - Add history section -- History information taken from [Wikipedia](https://en.wikipedia.org/wiki/Steamship_William_G._Mather_Maritime_Museum)
 - Update Nav Bar -- Add some margin, add a "Logo", rearrange the nav links to make more sense.
+- Add responsiveness to hero and history. \*Still need to add responsiveness to nav bar
 
 ---
 
