@@ -6,25 +6,16 @@
 }
 /* Navigation */
 nav {
-  background: linear-gradient(to bottom, lightblue, transparent);
-  height: 75px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-nav .logo {
-  text-align: left;
-  margin-left: 30px;
+  background: #f16100;
 }
 nav a {
-  margin-right: 30px;
-  text-decoration: none;
-  color: #333;
   font-weight: bolder;
   font-size: 1.3rem;
 }
-nav a:hover {
-  color: #f37520;
+nav .links {
+  text-align: right;
+}
+.other a:hover {
   border-bottom: solid 2px #f37520;
   padding-bottom: 2px;
 }
