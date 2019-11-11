@@ -29,6 +29,13 @@ I am doing this project as a way to create a landing page specific for this ship
 
 ---
 
+#### 11/11/19
+
+- Add bootstrap for a navbar
+- change the nav bar to a bootstrap one so it is responsive.
+
+---
+
 # Image Credits
 
 - ship-hero.jpg (Hero Background) - [Pixabay](https://www.pexels.com/@pixabay) from pexels.com
