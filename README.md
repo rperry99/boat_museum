@@ -36,6 +36,12 @@ I am doing this project as a way to create a landing page specific for this ship
 
 ---
 
+#### 11/12/19
+
+- Add event section -- All information was taken from the actual William G. Mather website and are real events.
+
+---
+
 # Image Credits
 
 - ship-hero.jpg (Hero Background) - [Pixabay](https://www.pexels.com/@pixabay) from pexels.com
