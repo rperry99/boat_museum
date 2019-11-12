@@ -1,8 +1,22 @@
+/* General Styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+}
+h2 {
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+  color: #f37520;
+}
+#content-container {
+  width: 50%;
+  margin: 0 auto;
+  color: #333;
+}
+section {
+  margin-bottom: 30px;
 }
 /* Navigation */
 nav {
@@ -61,17 +75,13 @@ nav .links {
   font-size: 1.5rem;
 }
 
-/* History */
-#history {
-  width: 50%;
-  margin: 0 auto;
-  color: #333;
-}
-#history h2 {
-  margin-bottom: 30px;
-  font-size: 1.8rem;
+/* Events */
+.card .card-header h2 button {
   color: #f37520;
+  text-transform: uppercase;
 }
+
+/* History */
 #history p {
   margin-bottom: 15px;
 }
@@ -100,7 +110,7 @@ nav .links {
   .header .tagline {
     font-size: 1.2rem;
   }
-  #history {
+  #content-container {
     margin-top: 30px;
     width: 75%;
   }
@@ -135,7 +145,7 @@ nav .links {
     font-size: 1rem;
     font-weight: bold;
   }
-  #history h2 {
+  h2 {
     text-align: center;
   }
   #history figure {
@@ -152,7 +162,7 @@ nav .links {
 /* Mobile - Medium */
 @media screen and (max-width: 375px) {
   .header,
-  #history {
+  #content-container {
     width: 90%;
   }
 }
