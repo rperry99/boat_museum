@@ -42,6 +42,10 @@ I am doing this project as a way to create a landing page specific for this ship
 
 ---
 
+#### 11/13/19
+
+- Add footer
+
 # Image Credits
 
 - ship-hero.jpg (Hero Background) - [Pixabay](https://www.pexels.com/@pixabay) from pexels.com
