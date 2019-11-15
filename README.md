@@ -46,6 +46,16 @@ I am doing this project as a way to create a landing page specific for this ship
 
 - Add footer
 
+---
+
+#### 11/14/19
+
+- Add hours and admission section
+- Add styling so every other section has a background color.
+- Make hours and admission section responsive.
+
+---
+
 # Image Credits
 
 - ship-hero.jpg (Hero Background) - [Pixabay](https://www.pexels.com/@pixabay) from pexels.com
