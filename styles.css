@@ -10,8 +10,8 @@ h2 {
   font-size: 1.8rem;
   color: #f37520;
 }
-#content-container {
-  width: 50%;
+.content-container {
+  width: 75%;
   margin: 0 auto;
   color: #333;
 }
@@ -75,10 +75,77 @@ nav .links {
   font-size: 1.5rem;
 }
 
+/* Sections */
+section:nth-child(odd) {
+  background: #eee;
+}
+section {
+  padding: 15px 0;
+}
+
 /* Events */
 .card .card-header h2 button {
   color: #f37520;
   text-transform: uppercase;
+}
+
+/* Plan a trip */
+
+#plan h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+.plan-contents {
+  display: flex;
+  justify-content: space-between;
+}
+#hours,
+#admission {
+  width: 45%;
+}
+.hours,
+.admission {
+  width: 100%;
+  border: solid 1px #333;
+}
+.hours,
+.admission {
+  text-align: right;
+  width: 100%;
+  border: solid 1px #333;
+}
+.hours tr td,
+.admission tr td {
+  padding: 5px;
+  border-right: solid 1px #333;
+}
+.hours tr:nth-child(even),
+.admission tr:nth-child(even) {
+  background: #ddd;
+}
+.hours tr:nth-child(odd),
+.admission tr:nth-child(odd) {
+  background: #fff;
+}
+.disclaimers p {
+  font-size: 0.9rem;
+  font-style: italic;
+  text-align: center;
+  margin-top: 10px;
+}
+.mobile-table {
+  display: none;
+  list-style-type: none;
+  font-size: 1.2rem;
+  font-style: italic;
+  text-align: center;
+  border: solid 1px #333;
+  padding: 5px;
+}
+.mobile-table .title {
+  font-weight: bold;
 }
 
 /* History */
@@ -133,6 +200,25 @@ footer a:hover {
     margin-top: 30px;
     width: 75%;
   }
+  section {
+    padding: 30px;
+  }
+  #plan h3 {
+    text-align: center;
+    font-size: 1.7rem;
+  }
+  .plan-contents {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #hours,
+  #admission {
+    width: 100%;
+  }
+  #admission {
+    margin-top: 15px;
+  }
 }
 
 /* Tablet */
@@ -149,10 +235,16 @@ footer a:hover {
   #history figure img {
     width: 300px;
   }
+  .admission {
+    margin: 0 auto;
+  }
+  .admission tr td {
+    padding-left: 25px;
+  }
 }
 
 /* Mobile - Large */
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
   #hero a {
     width: 100%;
     font-size: 1.2rem;
@@ -175,6 +267,13 @@ footer a:hover {
   }
   #history figure figcaption {
     font-size: 0.9rem;
+  }
+  .mobile-table {
+    display: block;
+  }
+  .hours,
+  .admission {
+    display: none;
   }
 }
 
