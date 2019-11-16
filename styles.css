@@ -165,6 +165,59 @@ section {
   height: auto;
 }
 
+/* Gallery */
+#gallery {
+  margin-bottom: 0;
+}
+#gallery p {
+  text-align: center;
+}
+.img-grid .gallery-img {
+  height: 350px;
+  padding: 20px;
+  background-size: cover;
+  background-position: cover;
+  background-clip: content-box;
+}
+.img-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-around;
+  list-style-type: none;
+}
+.img-grid .gallery-img {
+  background-position: center center;
+  background-size: cover;
+}
+.img-grid .boat-small {
+  width: 25%;
+  flex-grow: 1;
+}
+.img-grid .boat-large {
+  width: 70%;
+  flex-grow: 2;
+}
+.boat-a {
+  background: url("img/boat-a.jpg");
+}
+.boat-b {
+  background-image: url("img/boat-b.jpg");
+}
+.boat-c {
+  background-image: url("img/boat-c.jpg");
+}
+.boat-d {
+  background-image: url("img/boat-d.jpg");
+}
+.boat-e {
+  background-image: url("img/boat-e.jpg");
+}
+.boat-f {
+  background-image: url("img/boat-f.jpg");
+}
+
 /* Footer */
 footer {
   background: #333;
@@ -240,6 +293,12 @@ footer a:hover {
   }
   .admission tr td {
     padding-left: 25px;
+  }
+  .img-grid .boat-small,
+  .img-grid .boat-large {
+    width: 100%;
+    height: 250px;
+    flex-grow: 1;
   }
 }
 

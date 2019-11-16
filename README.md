@@ -56,7 +56,22 @@ I am doing this project as a way to create a landing page specific for this ship
 
 ---
 
+#### 11/15/19
+
+- Add gallery Section
+
+---
+
 # Image Credits
 
 - ship-hero.jpg (Hero Background) - [Pixabay](https://www.pexels.com/@pixabay) from pexels.com
-- ship-history.jpg (Image in history Section) - [Markus Spiske](https://www.pexels.com/@markusspiske)
+- ship-history.jpg (Image in history Section) - [Markus Spiske](https://www.pexels.com/@markusspiske) from pexels.com
+
+The following images are from the gallery in order, from left to right, top to bottom
+
+- ship-a - [Albin Berlin](https://www.pexels.com/@albinberlin) from pexels.com
+- ship-b - [Martin Damboldt](pexels.com/@mdx014) from pexels.com
+- ship-c - [Julius Silver](https://www.pexels.com/@julius-silver-240301) from pexels.com
+- ship-d - [Sascha Hormel](https://www.pexels.com/@hormel-media) from pexels.com
+- ship-e - [Mali Maeder](https://www.pexels.com/@mali) from pexels.com
+- ship-f - [David Dibert](https://www.pexels.com/@dibert) from pexels.com
